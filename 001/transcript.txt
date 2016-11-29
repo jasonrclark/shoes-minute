@@ -1,0 +1,13 @@
+# 001 - Installing Shoes
+
+Welcome to the very first Shoes Minute! I'm Jason Clark, one of the contributor on the Shoes project, and in this series I'll be showing you, in bite-sized chunks, all the things you can do with Shoes.
+
+So what is Shoes? Shoes is a GUI development library for Ruby that's focused on providing a simple, pleasant DSL for writing desktop applications.
+
+Let's take a look at how you get Shoes installed. A new release of Shoes, version 4.0, is under development, and there are two ways to get your hands on it.
+
+First, you can install it as a gem via the command `gem install shoes --pre`. The --pre tells Rubygems to let you install pre-released software, which Shoes 4 is since we're not fully feature complete yet. Once that's installed, you can run it with the `shoes` command.
+
+If you want to follow along with the latest and greatest being committed to Shoes 4, you can get the source code directly. To do this, navigate to https://github.com/shoes/shoes4 and locate the "clone" link. Copy that value, and then at a terminal, enter 'git clone git@github.com:shoes/shoes4.git'. That'll create a shoes4 directory for us, so we cd into it, and run bundle install. Note that this requires you to be running JRuby, which you can get from https://jruby.org, or your installed Ruby version manager. From the source code, you can run from bin/shoes.
+
+That's all it takes to get Shoes. Next up, we'll look at writing the simplest possible Shoes application!
